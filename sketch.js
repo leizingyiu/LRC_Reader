@@ -1,5 +1,5 @@
 // Created: "2022/03/29 13:00:00"
-// Last modified: "2022/06/03 16:37:04"
+// Last modified: "2022/06/06 17:44:22"
 
 if (typeof toTitleUpperCase == 'undefined') { toTitleUpperCase = function () { return arguments[0] } }
 
@@ -18,8 +18,8 @@ const ua = navigator.userAgent,
 // music and lrc data
 musics = [
 	{
-		'song': '../music/Rude_-_Cold_Inside.mp3',
-		'lrc': '../music/Rude_-_Cold_Inside.lrc'
+		'song': './music/Rude_-_Cold_Inside.mp3',
+		'lrc': './music/Rude_-_Cold_Inside.lrc'
 	},
 ];
 music = musics[Math.floor(musics.length * Math.random())];
